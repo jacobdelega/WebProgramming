@@ -1,0 +1,123 @@
+<!--
+    Every file submitted in this course needs to be documented,
+    points will be designated towards documentation, don't loss
+    points for not documenting your work.  Provide general 
+    documentation about you, the course and assignment
+    
+    Author: Jacob Delega
+    School: Rowan University
+    Course: CS04305
+    Assignment: A1 - Tools for Web Programming
+    Due Date: Jan 24 by 11:59pm
+    Instructor: Marquise N. Pullen
+
+    Description: Basic HTML page with some questions to answer, and to practice git.
+
+    Honor Pledge: I pledge that this work is entirely my own
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table>
+
+        <!-- Build the headings -->
+        <thead>
+            <tr>
+            <th colspan="5">Day 1 (Monday) </th>
+            </tr>
+            <tr>
+                <th>Lift</th>
+                <th>Sets / Reps</th>
+                <th>Type</th>
+                <th>Weight</th>
+                <th>RPE</th>
+            </tr>
+        </thead>
+
+        <!-- Build the body -->
+        <tr>
+            <td>Deadlift</td>
+            <td>3 x 6</td>
+            <td>Regular</td>
+            <td>405lbs</td>
+            <td>5.5</td>
+        </tr>
+        <tr>
+            <td>Magbar Pulldown</td>
+            <td>4 x 12</td>
+            <td>Regular</td>
+            <td>120lbs</td>
+            <td>5.5</td>
+        </tr>
+        <tr>
+            <td>Tbar cable row</td>
+            <td>3 x 12</td>
+            <td>Regular</td>
+            <td>120lbs</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>Single Arm PD</td>
+            <td>4 x 12</td>
+            <td>Regular</td>
+            <td>45lbs</td>
+            <td>6</td>
+        </tr>
+        <tr class="superset">
+            <td class="superset">DB Flys</td>
+            <td>4 x 12</td>
+            <td></td>
+            <td>20lbs</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>RD Flys</td>
+            <td>4 x 12</td>
+            <td></td>
+            <td>15lbs</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>Bicep</td>
+            <td>4 x 20</td>
+            <td></td>
+            <td></td>
+            <td>Failure.</td>
+        </tr>
+    </table>
+</p>
+</body>
+
+<style>
+    thead {
+        background-color:rgb(28, 158, 239);
+        color: white;
+        text-align: center;
+    }
+
+    td {
+        padding: 5px;
+        background-color: rgb(209, 209, 209);
+        text-align: center;
+    }
+
+    .superset {
+        background-color: rgb(214, 102, 242);
+        z-index: 10;
+    }
+
+    table {
+        border: 1px solid gray;
+    }
+
+    tr:nth-child(odd) td {
+        background-color: rgb(179, 179, 179);
+    }
+
+</style>
+</html>

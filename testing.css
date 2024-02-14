@@ -1,0 +1,73 @@
+.whitespace {
+    width: 100%;
+    height: 500px;
+    background-color: black
+}
+
+
+.about_section {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.about_container {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+
+}
+
+.element {
+    width: 25%;
+    height: 100%;
+    border: 1px solid green;
+}
+
+
+.element:first-child{
+    margin-left: 2rem;
+}
+
+.element:last-child{
+    margin-right: 2rem;
+}
+
+.card h1 {
+    font-size: 1rem;
+    font-weight: 800;
+    color: #5c72d6;
+}
+
+.card ul{
+    padding: 0;
+    margin-left: 1.25rem;
+}
+
+.card span {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.card p {
+    font-size: .75rem;
+}
+
+.school {
+    font-style: italic;
+    color: #60636d;
+}
+
+.table_container {
+    display: block;
+    justify-content: center;
+}
+
+.table_frame iframe {
+    width: 500px;
+    height: 500px;
+    border: none;
+    margin-left: 100px;
+}

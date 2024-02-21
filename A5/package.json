@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "formidable": "^3.5.1"
+  },
+  "name": "a5",
+  "version": "1.0.0",
+  "main": "node.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
